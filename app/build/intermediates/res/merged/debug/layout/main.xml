@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background = "@drawable/background"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="App Compare"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="20pt"
+
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/servicestartbutton"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_blue"
+            android:drawableRight="@drawable/iconbutplay"
+            android:text="Iniciar Serviço"
+            android:textSize="10pt"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/appviewerbutton"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_blue"
+            android:drawableRight="@drawable/iconbut"
+            android:text="Realizar Teste"
+            android:textSize="10pt"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/sysviewerbutton"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_blue"
+            android:drawableRight="@drawable/iconbutabout"
+            android:text="Informações do Sistema"
+            android:textSize="10pt"
+            android:typeface="normal" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
